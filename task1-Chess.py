@@ -2,10 +2,10 @@ a = str(input("Hi, The script can compare squares color from chessboard, if you 
 
 if a == "Yes":
 
-    x = int(input("Please insert first index for coordinate of the square: "))
-    y = int(input("Please insert second index for coordinate of the square: "))
-    x1 = int(input("Please insert first index for coordinate of the square: "))
-    x2 = int(input("Please insert second index for coordinate of the square: "))
+    x = int(input("Please input first index for coordinate of the square: "))
+    y = int(input("Please input second index for coordinate of the square: "))
+    x1 = int(input("Please input first index for coordinate of the square: "))
+    x2 = int(input("Please input second index for coordinate of the square: "))
 
 
     z = x+y+x1+x2
