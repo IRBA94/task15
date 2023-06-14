@@ -1,6 +1,6 @@
-a = str(input("Hi, The script can compare squares color from chessboard, if you are ready, please enter Yes/No: "))
+yn = str(input("Hi, The script can compare squares color from chessboard, if you are ready, please enter Yes/No: "))
 
-if a == "Yes":
+if yn == "Yes":
 
     x = int(input("Please insert first index for coordinate of the square: "))
     y = int(input("Please insert second index for coordinate of the square: "))
@@ -19,7 +19,7 @@ if a == "Yes":
             else:
                 print("The squares colore with this coordinate is not similar")
 
-elif a == "No":
+elif yn == "No":
     print("Lets try another time :)")
 else:
     print("incorrect data")
