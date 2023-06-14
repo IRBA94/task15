@@ -10,7 +10,7 @@ if a == "Yes":
 
     z = x+y+x1+x2
 
-    #if x, y, x1, x2 <= 0 or x, y, x1, x2 > 8: kitxva: ufro martivad rogor chavwero?
+    
     if x <= 0 or x > 8 or y <= 0 or y > 8 or x1 <= 0 or x1 > 8 or x2 <= 0 or x2 > 8:
         print("Invalid coordinate, you can choose a number from 1 to 8")
     else:
